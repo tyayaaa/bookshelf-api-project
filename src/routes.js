@@ -21,19 +21,19 @@ const routes = [
 
   { // menampilkan detail buku
     method: 'GET',
-    path: '/books/{bookId}',
+    path: '/books/{id}',
     handler: getBookByIdHandler,
   },
 
   { // edit detail buku
     method: 'PUT',
-    path: '/books/{bookId}',
+    path: '/books/{id}',
     handler: editBookByIdHandler,
   },
 
   { // hapus buku
     method: 'DELETE',
-    path: '/books/{bookId}',
+    path: '/books/{id}',
     handler: deleteBookByIdHandler,
   },
 ];
